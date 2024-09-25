@@ -11,39 +11,39 @@
     <p id="description">Please fill out this form with the required information</p>
   </fieldset>
 
-  <form id="survey-form">
-    <label for="name" name="name-label" id="name-label"> Enter Your First Name:
-    <input id="name" type="text" name="name" required placeholder="Enter your name"> 
-    </label>
-    <label for="email" id="email-label"> Email
-    <input id="email"type="email" name="email" required placeholder="Enter your email">
-    </label>
-    <label for="number" id="number-label"> Age (optional)
-    <input id="number" type="number" min="13" max="85" name="age" placeholder="Age">
-    </label>
-    <label for="dropdown" name="dropdown-label" > What is your favorite feature of freeCodeCamp?
-      <select id="dropdown" name="dropdown">
-        <option value=" "> (select one)
-        <option value="1"> simplicity
-        <option value="2"> outreach
-      </select>
-    </label>
-    <fieldset>
-      <p>Would you suggest FreeCodeCamp to your friends, and family?</p>
-    <label for="btn-radio">
-      <input type="radio" name="suggest" id="btn-radio"value="good"> Definitley
+    <form id="survey-form">
+      <label for="name" name="name-label" id="name-label"> Enter Your Name:
+        <input id="name" type="text" name="name" required placeholder="Enter your name"> 
       </label>
-      <label for="radio">
-      <input id="bad" type="radio" name="suggest" value="bad"> Not sure
-    </label>
-    </fieldset>
-    <fieldset>
-      <p>How'd you find us?</p>
-      <label for="friends"><input type="checkbox" id="friends" name="refferer" value="yes"> Friends</label>
-      <label for="family"><input type="checkbox" id="family" name="refferer" value="yes"> Family</label>
-    </fieldset>
-    <textarea></textarea>
-    <input id="submit" type="submit">
+      <label for="email" id="email-label"> Enter your email:
+        <input id="email"type="email" name="email" required placeholder="Enter your email">
+      </label>
+      <label for="number" id="number-label"> Age (optional):
+        <input id="number" type="number" min="13" max="85" name="age" placeholder="Age">
+      </label>
+      <label for="dropdown" name="dropdown-label" > What is your favorite feature of freeCodeCamp?
+        <select id="dropdown" name="dropdown">
+          <option value=" "> (select one)
+          <option value="1"> simplicity
+          <option value="2"> abundance of courses
+        </select>
+      </label>
+      <fieldset>
+        <p>Would you suggest FreeCodeCamp to your friends, and family?</p>
+      <label for="btn-radio">
+        <input type="radio" name="suggest" id="btn-radio"value="good"> Definitley
+        </label>
+        <label for="radio">
+        <input id="bad" type="radio" name="suggest" value="bad"> Not sure
+      </label>
+      </fieldset>
+      <fieldset>
+        <p>How did you find us?</p>
+        <label for="friends"><input type="checkbox" id="friends" name="refferer" value="yes"> Friends</label>
+        <label for="family"><input type="checkbox" id="family" name="refferer" value="yes"> Family</label>
+      </fieldset>
+      <textarea></textarea>
+      <input id="submit" type="submit">
   </form>
 </body>
 </html>
