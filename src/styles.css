@@ -1,11 +1,29 @@
 body {
     background-color: #202C39;
     color: white;
+    font-family: Tahoma;
+    font-size: 16px;
 }
 
-#title {
+#title, #description{
     text-align: center;
+    margin: 1em auto;
+
 }
 
+#header-container {
+    border: none;
+}
 
+form{
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
 
+label {
+    display: block;
+    margin: 0.5rem 0;
+  }
